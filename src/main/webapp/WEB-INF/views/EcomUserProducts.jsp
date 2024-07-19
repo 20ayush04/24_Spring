@@ -203,8 +203,8 @@ a, a:hover {
 			<div class="row justify-content-center text-center">
 				<div class="col-md-8 col-lg-6">
 					<div class="header">
-						<h3>Featured Product</h3>
-						<h2>Popular Products</h2>
+						<h3>Crafted with Your Preferences in Mind</h3>
+						<h2>Unleash Your Power at Legion Arena</h2>
 					</div>
 				</div>
 			</div>
