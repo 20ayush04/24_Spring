@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -9,7 +8,7 @@
 <body>
 	<h2>New Product</h2>
 
-	<form action="saveproduct" method="post"  enctype="multipart/form-data"">
+	<form action="saveproduct" method="post"  enctype="multipart/form-data">
 
 		ProductName: <input type="text" name="productName" /><br>
 		<br> Category: <input type="text" name="category" /><br>

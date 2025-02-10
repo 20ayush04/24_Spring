@@ -1,24 +1,15 @@
 package com.bean;
 
-public class EProductBean {
-
-	private Integer productId;
+public class ProductCartBean {
 	private String productName;
 	private String category;
-	private Integer qty;// int qty
 	private Float price;
 	private String productImagePath;
 
-	// framework -> hibernate -> primitive X
-	//
-
-	public Integer getProductId() {
-		return productId;
-	}
-
-	public void setProductId(Integer productId) {
-		this.productId = productId;
-	}
+	private Integer cartId;
+	private Integer userId;
+	private Integer productId;
+	private Integer qty;
 
 	public String getProductName() {
 		return productName;
@@ -34,14 +25,6 @@ public class EProductBean {
 
 	public void setCategory(String category) {
 		this.category = category;
-	}
-
-	public Integer getQty() {
-		return qty;
-	}
-
-	public void setQty(Integer qty) {
-		this.qty = qty;
 	}
 
 	public Float getPrice() {
@@ -60,7 +43,36 @@ public class EProductBean {
 		this.productImagePath = productImagePath;
 	}
 
-	// private
-	// getters setters ->
+	public Integer getCartId() {
+		return cartId;
+	}
+
+	public void setCartId(Integer cartId) {
+		this.cartId = cartId;
+	}
+
+	public Integer getUserId() {
+		return userId;
+	}
+
+	public void setUserId(Integer userId) {
+		this.userId = userId;
+	}
+
+	public Integer getProductId() {
+		return productId;
+	}
+
+	public void setProductId(Integer productId) {
+		this.productId = productId;
+	}
+
+	public Integer getQty() {
+		return qty;
+	}
+
+	public void setQty(Integer qty) {
+		this.qty = qty;
+	}
 
 }

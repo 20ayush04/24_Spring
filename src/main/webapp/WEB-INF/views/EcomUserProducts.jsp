@@ -1,3 +1,4 @@
+
 <%@page import="com.bean.EProductBean"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -193,7 +194,8 @@ a, a:hover {
 	<div class="row">
 		<div class="col-md">
 			
-			<a href="logout">Logout</a>
+			<a href="logout">Logout</a> | 
+			<a href="mycart">MyCart</a>
 
 		</div>
 	</div>
@@ -203,8 +205,8 @@ a, a:hover {
 			<div class="row justify-content-center text-center">
 				<div class="col-md-8 col-lg-6">
 					<div class="header">
-						<h3>Crafted with Your Preferences in Mind</h3>
-						<h2>Unleash Your Power at Legion Arena</h2>
+						<h3>Featured Product</h3>
+						<h2>Popular Products</h2>
 					</div>
 				</div>
 			</div>
@@ -226,7 +228,7 @@ a, a:hover {
 								<li><a href="addtocart?productId=<%=p.getProductId()%>"><i
 										class="fas fa-shopping-cart"></i></a></li>
 								<li><a href="#"><i class="fas fa-heart"></i></a></li>
-								<li><a href="#"><i class="fas fa-eye"></i></a></li>
+								<li><a href="viewproduct?productId=<%=p.getProductId()%>"><i class="fas fa-eye"></i></a></li>
 							</ul>
 						</div>
 						<div class="part-2">
